@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+	namespace：
+	1.全局唯一
+	2.和接口的全路径相对应
+ -->
+<mapper namespace="com.xyh.demo.dao.enrMapper">
+    <select id="selAll" resultType="com.xyh.demo.dao.UesrMapper"/>
+</mapper>
